@@ -1,0 +1,271 @@
+
+/* Styles */
+
+body {
+font-family: 'Lucida Grande', 'Lucida Sans Unicode',
+'Geneva', 'Verdana', sans-serif;
+background-color: antiquewhite;
+margin-left: 18px;
+}
+p {
+	color: navy;
+}
+
+header {
+	background-color: #333;
+	overflow: hidden;
+}
+header a {
+	float: left;
+	color: yellow;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+a:hover{
+	background-color: silver;
+	color: blue;
+}
+a:active {
+	/*background-color: yellow;
+	background: #fff;
+    color:#262626;*/
+	background-color: #F00;
+	font-size: 30px	
+}
+a.activeMenuItem {
+    background-color: #F00;
+    font-weight: bold;
+}
+
+header.scrolled{
+	background-color: yellow;
+    height: 100px;
+}
+.container {
+	margin-top: 20px;
+      margin-left: 100px;
+	  margin-right: 100px;
+    }
+
+/* Prevents slides from flashing  */
+    #slides {
+      display:none;
+    }
+	
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+/* their css
+
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 1000px;
+  font-family: 'Roboto Condensed';
+  padding-top: 100px;
+  background-color: #fafafa;
+  line-height: 1.7;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  /*background: #000;
+  /*transition: 1s;
+  padding: 0 100px;
+  box-sizing: border-box;
+  }
+
+/*
+header.scrolled{
+  height: 100px;
+}
+
+header img.banner{
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+
+}
+header.scrolled img.banner{
+  opacity: 0;
+}
+header .logo{
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  transition: 1s;
+}
+header.scrolled .logo{
+  position: relative;
+  top: 10px;
+  left: 0;
+
+}
+header .logo img {
+  width: 300px;
+  transition: 1s;
+}
+header.scrolled .logo img {
+  width: 80px;
+}
+
+nav{
+  position: relative;
+  float: right;
+}
+nav ul{
+  margin: 0;
+  padding: 40px 0;
+  /**display: flex;
+  transition: 1s;
+  opacity: 0;
+  
+  /*visibility: hidden;
+  transform: translateX(100px);
+}
+header.scrolled nav ul{
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 1s;
+}
+nav ul li a.active{
+  background: #fff;
+  color:#262626;
+}
+nav ul li a:hover{
+  border-bottom: 2px solid white;
+
+}
+section{
+  padding: 100px;
+  box-sizing: border-box;
+  margin: 150px auto;
+}
+section h2{
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+}
+section p{
+  font-size: 18px;
+}
+*/
+.logotext {
+	font-family: 'Lucida Handwriting';
+	font-size: 24px;
+}
